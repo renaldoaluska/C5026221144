@@ -1,0 +1,222 @@
+html {
+    scroll-behavior: smooth
+}
+
+@font-face {
+    font-family: "Knockout-HTF53-Heviweight";
+    src: url(font/knockout.woff2);
+}
+
+@font-face {
+    font-family: "Thunderhouse Pro";
+    src: url(font/thunderhouse.woff2);
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.bg-brand {
+    background-color: #1a0e51;
+}
+
+.text-brand {
+    color: #1a0e51;
+}
+
+.divnavAlfa {
+    text-transform: uppercase !important;
+    position: relative;
+}
+
+.navAlfa {
+    padding-top: 20px !important;
+    padding-bottom: 0 !important;
+}
+
+.navbar-toggler {
+    z-index: 1;
+}
+
+.kelokanAtas {
+    position: relative;
+}
+
+.behindNav {
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.palingAtas {
+    width: 100%;
+    position: relative;
+}
+
+.palingAtasFig {
+    background-position: bottom -50px right 0 !important;
+    padding-top: 18%;
+    padding-bottom: 42%;
+    /* 702px/1920px = 0.3656 */
+    display: block;
+    background: url("intro/bg.jpeg") no-repeat center top;
+    background-size: cover;
+    margin-bottom: 0;
+}
+
+.sectionKetiga {
+    top: -20vh;
+    position: relative;
+    z-index: -1;
+    background-image: url("about/bg.jpeg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.bawahKetiga {
+    padding-top: 25vh;
+}
+
+
+.sectionAvail {
+    top: -20vh;
+    position: relative;
+}
+
+.sectionProd {
+    top: -35vh;
+    position: relative;
+    z-index: -1;
+}
+
+img {
+    line-height: 0;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+body {
+    font-family: 'Knockout-HTF53-Heviweight' !important;
+}
+
+@media (max-width: 576px) {
+
+    h1,
+    h2 {
+        font-size: 5vw !important;
+    }
+
+    h1.display-1 {
+        font-size: 12vw !important;
+    }
+}
+
+
+.sequel-block.homepage-dual-featured-products .col-12:first-child {
+    background-image: url(product/lz-bg.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.sequel-block.homepage-dual-featured-products .col-12:last-child {
+    background-image: url(product/journey-bg.jpg);
+    background-position: 0 50%;
+}
+
+
+.highImg {
+    border-width: 2px;
+    border: 2px solid #1a0e51;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+figcaption.h6 {
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+.divsecHigh {
+    padding-bottom: 20vh;
+}
+
+.prodimg2 {
+    padding-top: 20vh;
+}
+
+@media (max-width:768px) {
+    .prodimg2 {
+        padding-top: 12vh;
+    }
+}
+
+.opHov {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.opHov:hover, .opHov:active {
+    opacity: 1;
+}
+
+.shakeElly img:hover,
+.prodimg1 img:hover,
+.prodimg2 img:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 2s;
+
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}

@@ -1,0 +1,104 @@
+html {
+    padding: 64px 16px 32px;
+    font-family: Inter, sans-serif;
+}
+
+
+#alfaMainContainer{
+    max-width: 680px;
+    margin: 0 auto;
+}
+#alfaPhoto {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+#alfaDesc {
+    text-align: center;
+    margin-bottom: 30px;
+}
+#alfaDesc b {
+    font-size: 20px;
+}
+#alfaDesc p {
+    margin-top:5px;
+    font-size: 16px;
+}
+
+
+#alfaLinktree {
+}
+
+.alfaContainer{
+    position: relative;
+    width: 98%;
+    margin: 0 auto;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.alfaContainer:hover {
+    font-size: 16.5px;
+    width: 100%;
+    transition: all .3s cubic-bezier(.3, 0, 0, 1.3);
+}
+
+.alfaDaleman {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 60px;
+    min-height: 56px;
+    border-radius: 15px;
+    text-align: center;
+    background: #43e660;
+}
+
+.alfaDaleman a, a:visited, a:link {
+    color: black;
+}
+
+.alfaDaleman img {
+    margin-left: 8px;
+    width: 48px;
+    height: 48px;
+}
+
+.alfaDaleman p {
+    margin-left: -8px!important;
+    padding: 16px 20px;
+    line-height: 1.5;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+}
+
+.alfaDaleman:focus {
+    transition: all .3s cubic-bezier(.3, 0, 0, 1.3);
+}
+
+a {
+    text-decoration: none;
+}
+
+
+p.alfadotthree {
+    width: auto;
+}
+.alfaDaleman:hover>p.alfadotthree:after {
+    content: "\22EF";
+}
+p.alfadotthree:hover {
+    border-radius: 50%;
+    padding:8px 13px;
+    background: rgba(0, 0, 0, 0.1) /* black bg 10% opacity */
+}
+
+.alfaLogoLinktree{
+    margin: 0 auto;
+    width: 95px;
+    margin-top: 50px;
+}

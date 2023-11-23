@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+
+<body>
+    [<a href="https://www.its.ac.id/">WEB ITS</a>] -
+    [<a href="https://www.detik.com/" target="_blank">Detik.com</a>] -
+    [<a href="https://www.google.com/" target="_parent">google</a>]
+
+    <br>
+    <div class="kotakfoto">
+        <img src="https://www.its.ac.id/news/wp-content/uploads/sites/2/2023/08/IMG_2295.jpg" alt="" width="600px"
+            height="600px" class="profpicture">
+        <br>
+        <img src="https://www.its.ac.id/news/wp-content/uploads/sites/2/2023/08/IMG_2295.jpg" width="600px"
+            class="fotobiasa">
+    </div>
+</body>
+
+</html>
