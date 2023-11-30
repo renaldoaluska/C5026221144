@@ -19,7 +19,7 @@
 		Jabatan <input type="text" name="jabatan"> <br/>
 		Umur <input type="number" name="umur"> <br/>
 		Alamat <textarea name="alamat"></textarea> <br/>
-		<input type="submit" value="Simpan Data">
+		<input class="btn btn-success" type="submit" value="Simpan Data">
 	</form>
 
 

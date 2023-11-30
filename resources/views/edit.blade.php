@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Tutorial Membuat CRUD Pada Laravel - www.malasngoding.com</title>
-</head>
+
+@include('header')
 <body>
 
 	<h2><a href="https://www.malasngoding.com">www.malasngoding.com</a></h2>
@@ -21,7 +20,7 @@
 		Jabatan <input type="text" required="required" name="jabatan" value="{{ $p->pegawai_jabatan }}"> <br/>
 		Umur <input type="number" required="required" name="umur" value="{{ $p->pegawai_umur }}"> <br/>
 		Alamat <textarea required="required" name="alamat">{{ $p->pegawai_alamat }}</textarea> <br/>
-		<input type="submit" value="Simpan Data">
+		<input class="btn btn-success" type="submit" value="Simpen Data">
 	</form>
 	@endforeach
 
