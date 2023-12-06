@@ -45,6 +45,8 @@
                 <td>{{ $p->pegawai_umur }}</td>
                 <td>{{ $p->pegawai_alamat }}</td>
                 <td>
+                    <a class="btn btn-success" href="/pegawai/view/{{ $p->pegawai_id }}">View</a>
+                    |
                     <a class="btn btn-warning" href="/pegawai/edit/{{ $p->pegawai_id }}">Edit</a>
                     |
                     <a class="btn btn-danger" href="/pegawai/hapus/{{ $p->pegawai_id }}">Hapus</a>
