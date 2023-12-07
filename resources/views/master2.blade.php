@@ -11,21 +11,24 @@
         <!-- Links -->
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="#">Link 1</a>
+            <a class="nav-link" href="/pegawai">Pegawai</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link 2</a>
+            <a class="nav-link" href="/nilai">Nilai Kuliah</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/belanja">Keranjang Belanja</a>
           </li>
 
           <!-- Dropdown -->
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-              Dropdown link
+              Tugas-Tugas
             </a>
             <div class="dropdown-menu">
-              <a class="dropdown-item" href="#">Link 1</a>
-              <a class="dropdown-item" href="#">Link 2</a>
-              <a class="dropdown-item" href="#">Link 3</a>
+              <a class="dropdown-item" href="/pegawai">Pegawai</a>
+              <a class="dropdown-item" href="/nilai">Nilai Kuliah</a>
+              <a class="dropdown-item"  href="/belanja">Keranjang Belanja</a>
             </div>
           </li>
         </ul>
