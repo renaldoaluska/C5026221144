@@ -129,6 +129,16 @@ Route::post('/pegawai/update','App\Http\Controllers\PegawaiController@update');
 Route::get('/pegawai/hapus/{id}','App\Http\Controllers\PegawaiController@hapus');
 Route::get('/pegawai/view/{id}','App\Http\Controllers\PegawaiController@view');
 
+//route BUS
+Route::get('/bus','App\Http\Controllers\BusController@index');
+Route::get('/bus/tambah','App\Http\Controllers\BusController@tambah');
+Route::post('/bus/store','App\Http\Controllers\BusController@store');
+Route::get('/bus/edit/{id}','App\Http\Controllers\BusController@edit');
+Route::post('/bus/update','App\Http\Controllers\BusController@update');
+Route::get('/bus/hapus/{id}','App\Http\Controllers\BusController@hapus');
+Route::get('/bus/cari','App\Http\Controllers\BusController@cari');
+Route::get('/bus/view/{id}','App\Http\Controllers\BusController@view');
+
 Route::get('/pegawai/cari','App\Http\Controllers\PegawaiController@cari');
 
 Route::get('/nilai','App\Http\Controllers\NilaiController@index');

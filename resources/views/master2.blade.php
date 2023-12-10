@@ -19,6 +19,9 @@
           <li class="nav-item">
             <a class="nav-link" href="/belanja">Keranjang Belanja</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/bus">Bus (Pra-EAS)</a>
+          </li>
 
           <!-- Dropdown -->
           <li class="nav-item dropdown">
@@ -29,6 +32,7 @@
               <a class="dropdown-item" href="/pegawai">Pegawai</a>
               <a class="dropdown-item" href="/nilai">Nilai Kuliah</a>
               <a class="dropdown-item"  href="/belanja">Keranjang Belanja</a>
+              <a class="dropdown-item" href="/bus">Bus (Pra-EAS)</a>
             </div>
           </li>
         </ul>
