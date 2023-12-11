@@ -150,3 +150,12 @@ Route::get('/belanja','App\Http\Controllers\BelanjaController@index');
 Route::get('/belanja/tambah','App\Http\Controllers\BelanjaController@tambah');
 Route::post('/belanja/store','App\Http\Controllers\BelanjaController@store');
 Route::get('/belanja/batal/{id}','App\Http\Controllers\BelanjaController@batal');
+
+
+//route EAS MAHASISWA
+Route::get('/mahasiswa','App\Http\Controllers\MahasiswaController@index');
+Route::get('/mahasiswa/edit/{id}','App\Http\Controllers\MahasiswaController@edit');
+Route::post('/mahasiswa/update','App\Http\Controllers\MahasiswaController@update');
+Route::get('/mahasiswa/cari','App\Http\Controllers\MahasiswaController@cari');
+Route::get('/mahasiswa/view/{id}','App\Http\Controllers\MahasiswaController@view');
+Route::get('/mahasiswa/tambah','App\Http\Controllers\MahasiswaController@tambah');

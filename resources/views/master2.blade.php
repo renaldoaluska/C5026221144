@@ -10,6 +10,9 @@
 
         <!-- Links -->
         <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="/mahasiswa">Mahasiswa</a>
+            </li>
           <li class="nav-item">
             <a class="nav-link" href="/pegawai">Pegawai</a>
           </li>
